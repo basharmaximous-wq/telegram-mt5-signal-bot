@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-8A2BE2?style=for-the-badge&logo=python&logoColor=white&labelColor=0B0014" />
-  <img src="https://img.shields.io/badge/MT5-API-7E22CE?style=for-the-badge&logo=metatrader5&logoColor=white&labelColor=0B0014" />
-  <img src="https://img.shields.io/badge/Telegram-Bot-D8B4FE?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0B0014" />
+  <a href="https://www.python.org/downloads/release/python-3100/"><img src="https://img.shields.io/badge/Python-3.10%2B-8A2BE2?style=for-the-badge&logo=python&logoColor=white&labelColor=0B0014" /></a>
+  <a href="https://www.metatrader5.com/"><img src="https://img.shields.io/badge/MT5-API-7E22CE?style=for-the-badge&logo=metatrader5&logoColor=white&labelColor=0B0014" /></a>
+  <a href="https://my.telegram.org/"><img src="https://img.shields.io/badge/Telegram-Bot-D8B4FE?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0B0014" /></a>
   <img src="https://img.shields.io/badge/Risk%20Engine-Weighted%20Layering-A855F7?style=for-the-badge&labelColor=0B0014" />
 </p>
 
@@ -15,9 +15,14 @@
 
 ---
 
+<!-- WHITE LASER DIVIDER (animated gradient line) -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=800&text=&fontColor=fff&animation=twinkling" />
+</p>
+
 ## 🏛️ EXECUTIVE SUMMARY – THE SIGNAL VAULT
 
-A **bespoke execution engine** bridging a private Telegram VIP group with MetaTrader 5.  
+A **bespoke execution engine** bridging a private [Telegram](https://telegram.org/) VIP group with [MetaTrader 5](https://www.metatrader5.com/).  
 Designed for **two‑step signal flows** — immediate entry followed by full SL/TP structure.  
 Operates like a **family office trading desk**:
 
@@ -34,8 +39,8 @@ Operates like a **family office trading desk**:
 
 | Module | Description |
 |--------|-------------|
-| **Telegram Listener** | `Telethon` – reads only designated VIP groups |
-| **MT5 Execution** | Official MetaTrader5 package – live or demo |
+| **Telegram Listener** | `[Telethon](https://docs.telethon.dev/)` – reads only designated VIP groups |
+| **MT5 Execution** | Official `[MetaTrader5](https://www.metatrader5.com/en/terminal/help/algotrading/ctrade)` Python package |
 | **Gold / Forex Parser** | Recognises `XAUUSD`, `GOLD`, `XAU`, and major pairs |
 | **Two‑Step Signal Memory** | Matches follow‑up SL/TP to a pending immediate entry |
 | **Rule‑Based Layering** | Splits total risk across entries; deeper = larger lot |
@@ -74,8 +79,8 @@ Risk is split across multiple price levels.
 Deeper entries receive **larger lots** – start small, scale only if price moves deeper.
 
 ### 3. Pip Model
-- Gold / XAUUSD → `0.1` = 1 pip  
-- Forex → `0.0001` = 1 pip  
+- Gold / `XAUUSD` → `0.1` = 1 pip  
+- Forex (`EURUSD`, `GBPUSD`, etc.) → `0.0001` = 1 pip  
 
 ### 4. Conservative Overrides
 - Max open positions – hard limit on concurrent setups
@@ -94,9 +99,9 @@ Locks in gains while keeping a runner.
 
 ## 🏦 REQUIREMENTS – THE PRIVATE CLIENT SETUP
 
-- **Windows PC** (dedicated or VPS recommended)
-- **Python 3.10+**
-- **MetaTrader 5** installed, logged in, and auto‑trading enabled
+- **Windows PC** (dedicated or [VPS](https://en.wikipedia.org/wiki/Virtual_private_server) recommended)
+- **[Python 3.10+](https://www.python.org/downloads/)**
+- **[MetaTrader 5](https://www.metatrader5.com/)** installed, logged in, and auto‑trading enabled
 - **Telegram account** that is a member of the target VIP signal group
 
 ### Install Dependencies
