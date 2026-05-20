@@ -115,15 +115,47 @@ copy config.example.py config.py
 ```
 Then edit config.py with:
 ```
-.Telegram API credentials (api_id, api_hash, phone)
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                           🔐 TELEGRAM API CREDENTIALS                          ║
+╠═══════════════════════════════════════════════════════════════════════════════╣
+║  • api_id         ──  your unique application identifier                      ║
+║  • api_hash       ──  secret key from my.telegram.org                         ║
+║  • phone          ──  your Telegram account number (with country code)        ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
 
-.MT5 login, password, server, path
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                              💹 MT5 GATEWAY                                    ║
+╠═══════════════════════════════════════════════════════════════════════════════╣
+║  • login          ──  MT5 account number                                      ║
+║  • password       ──  trading account password                                ║
+║  • server         ──  broker server name (e.g., "ICMarkets-Demo")             ║
+║  • path           ──  full path to terminal64.exe                             ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
 
-.Risk parameters (risk%, max lot, max open trades)
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                              ⚖️ RISK PARAMETERS                                ║
+╠═══════════════════════════════════════════════════════════════════════════════╣
+║  • risk_percent           ──  % of balance per signal (e.g., 1.0)             ║
+║  • max_lot_per_signal     ──  absolute cap on total lot size                  ║
+║  • max_open_trades        ──  maximum concurrent positions                    ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
 
-.Session hours, spread limit, break‑even buffer, partial profit percentages
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                              ⏱️ SESSION CONTROLS                               ║
+╠═══════════════════════════════════════════════════════════════════════════════╣
+║  • session_start          ──  London/New York open hour (UTC)                 ║
+║  • session_end            ──  close hour (UTC)                                ║
+║  • max_spread             ──  reject trades if spread > this (in points)      ║
+║  • breakeven_buffer       ──  pips beyond entry before moving SL              ║
+║  • tp_partial_percentages ──  list: e.g., [30, 30, 40] for TP1, TP2, runner   ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
 
-.News blackout windows (optional)
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                              📰 NEWS BLACKOUT (OPTIONAL)                       ║
+╠═══════════════════════════════════════════════════════════════════════════════╣
+║  • news_blackout_windows ──  list of (start_utc, end_utc) tuples              ║
+║                              e.g., [("13:30", "15:00"), ("18:00", "19:30")]   ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
 ```
 ⚠️ The following files are automatically ignored by .gitignore – keep them private:
 config.py, *.session, bot.log, bot_trades.db
