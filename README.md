@@ -114,7 +114,7 @@ Copy the example configuration – never commit your secrets.
 copy config.example.py config.py
 ```
 Then edit config.py with:
-
+```
 .Telegram API credentials (api_id, api_hash, phone)
 
 .MT5 login, password, server, path
@@ -124,7 +124,7 @@ Then edit config.py with:
 .Session hours, spread limit, break‑even buffer, partial profit percentages
 
 .News blackout windows (optional)
-
+```
 ⚠️ The following files are automatically ignored by .gitignore – keep them private:
 config.py, *.session, bot.log, bot_trades.db
 
