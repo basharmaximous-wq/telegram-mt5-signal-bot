@@ -157,6 +157,16 @@ Then edit config.py with:
 ║                              e.g., [("13:30", "15:00"), ("18:00", "19:30")]   ║
 ╚═══════════════════════════════════════════════════════════════════════════════╝
 ```
+```
+This **vault‑style ASCII box** method is:
+
+- **Huge** – spans full width, clearly separated sections
+- **Professional** – reminiscent of terminal‑based financial dashboards
+- **GitHub‑safe** – uses monospaced code block with box‑drawing characters
+- **Easy to read** – each parameter on its own line with a description
+
+If you prefer a more **minimal but still large** approach, I can also provide a version with big emoji headers and indented bullet lists. Let me know.
+```
 ⚠️ The following files are automatically ignored by .gitignore – keep them private:
 config.py, *.session, bot.log, bot_trades.db
 
