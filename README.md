@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://www.python.org/downloads/release/python-3100/"><img src="https://img.shields.io/badge/Python-3.10%2B-8A2BE2?style=for-the-badge&logo=python&logoColor=white&labelColor=0B0014" /></a>
-  <a href="https://www.metatrader5.com/"><img src="https://img.shields.io/badge/MT5-API-7E22CE?style=for-the-badge&logo=metatrader5&logoColor=white&labelColor=0B0014" /></a>
+  <a href="https://www.metatrader5.com/"><img src="https://img.shields.io/badge/MT5-7E22CE?style=for-the-badge&logo=metatrader5&logoColor=white&labelColor=0B0014" /></a>
   <a href="https://my.telegram.org/"><img src="https://img.shields.io/badge/Telegram-API-D8B4FE?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0B0014" /></a>
 </p>
 
