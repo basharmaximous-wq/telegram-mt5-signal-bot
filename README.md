@@ -5,12 +5,8 @@
 <p align="center">
   <a href="https://www.python.org/downloads/release/python-3100/"><img src="https://img.shields.io/badge/Python-3.10%2B-8A2BE2?style=for-the-badge&logo=python&logoColor=white&labelColor=0B0014" /></a>
   <a href="https://www.metatrader5.com/"><img src="https://img.shields.io/badge/MT5-API-7E22CE?style=for-the-badge&logo=metatrader5&logoColor=white&labelColor=0B0014" /></a>
-  <a href="https://my.telegram.org/"><img src="https://img.shields.io/badge/Telegram-API-D8B4FE?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0B0014" /></a>
-</p>
-
-<!-- Animated risk engine line (non-clickable, pure animation) -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2000&pause=300&color=FFFFFF&center=true&vCenter=true&width=500&height=30&lines=⚖️+RISK+ENGINE+:+WEIGHTED+LAYERING+ACTIVE" alt="Risk Engine Animation" />
+  <a href="https://my.telegram.org/"><img src="https://img.shields.io/badge/Telegram-Bot-D8B4FE?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0B0014" /></a>
+  <img src="https://img.shields.io/badge/Risk%20Engine-Weighted%20Layering-A855F7?style=for-the-badge&labelColor=0B0014" />
 </p>
 
 <p align="center">
@@ -19,7 +15,7 @@
 
 ---
 
-<!-- WHITE LASER ANIMATED DIVIDER -->
+<!-- WHITE LASER DIVIDER (animated gradient line) -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=800&text=&fontColor=fff&animation=twinkling" />
 </p>
