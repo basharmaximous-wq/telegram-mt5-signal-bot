@@ -1,0 +1,22 @@
+# Local secrets
+telegram_mt5_bot/config.py
+telegram_mt5_bot/session_user.session
+telegram_mt5_bot/*.session
+telegram_mt5_bot/*.session-journal
+rules.md
+
+# Runtime files
+telegram_mt5_bot/bot.log
+telegram_mt5_bot/bot_trades.db
+telegram_mt5_bot/*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
