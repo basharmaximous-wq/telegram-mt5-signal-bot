@@ -179,6 +179,7 @@ First, verify MT5 can see XAUUSD (or your preferred instruments):
 
 ```powershell
 python check_mt5.py
+```
 Then start the execution suite:
 ```
 ```powershell
