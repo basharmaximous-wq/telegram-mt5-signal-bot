@@ -1,12 +1,11 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=A855F7&background=0B0014&center=true&vCenter=true&width=600&height=60&lines=TELEGRAM+%E2%9E%9C+MT5;WEIGHTED+LAYERING;RISK-FIRST+PROTOCOL" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=A855F7&background=0B0014&center=true&vCenter=true&width=700&height=80&lines=TELEGRAM+%E2%9E%9C+MT5;WEIGHTED+LAYERING;RISK-FIRST+PROTOCOL;⚖️+RISK+ENGINE+ACTIVE" alt="Typing SVG" />
 </p>
 
 <p align="center">
   <a href="https://www.python.org/downloads/release/python-3100/"><img src="https://img.shields.io/badge/Python-3.10%2B-8A2BE2?style=for-the-badge&logo=python&logoColor=white&labelColor=0B0014" /></a>
-  <a href="https://www.metatrader5.com/"><img src="https://img.shields.io/badge/MT5-API-7E22CE?style=for-the-badge&logo=metatrader5&logoColor=white&labelColor=0B0014" /></a>
-  <a href="https://my.telegram.org/"><img src="https://img.shields.io/badge/Telegram-Bot-D8B4FE?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0B0014" /></a>
-  <img src="https://img.shields.io/badge/Risk%20Engine-Weighted%20Layering-A855F7?style=for-the-badge&labelColor=0B0014" />
+  <a href="https://www.metatrader5.com/"><img src="https://img.shields.io/badge/MT5-7E22CE?style=for-the-badge&logo=metatrader5&logoColor=white&labelColor=0B0014" /></a>
+  <a href="https://my.telegram.org/"><img src="https://img.shields.io/badge/Telegram-API-D8B4FE?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0B0014" /></a>
 </p>
 
 <p align="center">
@@ -15,7 +14,7 @@
 
 ---
 
-<!-- WHITE LASER DIVIDER (animated gradient line) -->
+<!-- WHITE LASER ANIMATED DIVIDER -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=800&text=&fontColor=fff&animation=twinkling" />
 </p>
@@ -39,8 +38,8 @@ Operates like a **family office trading desk**:
 
 | Module | Description |
 |--------|-------------|
-| **Telegram Listener** | `[Telethon](https://docs.telethon.dev/)` – reads only designated VIP groups |
-| **MT5 Execution** | Official `[MetaTrader5](https://www.metatrader5.com/en/terminal/help/algotrading/ctrade)` Python package |
+| **Telegram Listener** | [`Telethon`](https://docs.telethon.dev/) – reads only designated VIP groups |
+| **MT5 Execution** | Official [`MetaTrader5`](https://www.metatrader5.com/en/terminal/help/algotrading/ctrade) Python package |
 | **Gold / Forex Parser** | Recognises `XAUUSD`, `GOLD`, `XAU`, and major pairs |
 | **Two‑Step Signal Memory** | Matches follow‑up SL/TP to a pending immediate entry |
 | **Rule‑Based Layering** | Splits total risk across entries; deeper = larger lot |
