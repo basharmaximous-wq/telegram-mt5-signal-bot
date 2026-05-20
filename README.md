@@ -16,7 +16,8 @@
 
 <!-- WHITE LASER ANIMATED DIVIDER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&width=800&text=&fontColor=fff&animation=twinkling" />
+  <p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=A855F7&background=0B0014&center=true&vCenter=true&width=700&height=80&lines=TELEGRAM+%E2%9E%9C+MT5;WEIGHTED+LAYERING;RISK-FIRST+PROTOCOL;⚖️+RISK+ENGINE+ACTIVE" alt="Typing SVG" />
 </p>
 
 ## 🏛️ EXECUTIVE SUMMARY – THE SIGNAL VAULT
